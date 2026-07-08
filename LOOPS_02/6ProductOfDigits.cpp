@@ -6,7 +6,7 @@ int main(){
     cin >> n;
     int product = 1;
     if(n<0) n *= -1;
-    while(n!=0){
+    while(n>0){
         product *= (n%10);
         n /= 10;
     }
