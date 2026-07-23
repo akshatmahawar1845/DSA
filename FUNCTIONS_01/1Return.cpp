@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int fun(int x){
+int fun(int x){   // will use this with only int function
     return x + 18;  // return gives output
 }
 int main(){
